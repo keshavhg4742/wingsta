@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TestcreateInvoiceis pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19054" started-at="2019-11-08T13:29:04Z" finished-at="2019-11-08T13:29:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19054" started-at="2019-11-08T13:29:04Z" finished-at="2019-11-08T13:29:23Z">
+      <class name="qa.scripts.CreateInvoiceTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:qa.scripts.CreateInvoiceTest@43a25848]" name="openApp" is-config="true" duration-ms="15193" started-at="2019-11-08T18:59:04Z" finished-at="2019-11-08T18:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="createInvoice()[pri:0, instance:qa.scripts.CreateInvoiceTest@43a25848]" name="createInvoice" duration-ms="3834" started-at="2019-11-08T18:59:19Z" finished-at="2019-11-08T18:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoice -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:qa.scripts.CreateInvoiceTest@43a25848]" name="closeApp" is-config="true" duration-ms="1" started-at="2019-11-08T18:59:23Z" finished-at="2019-11-08T18:59:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createInvoice status=SUCCESS method=CreateInvoiceTest.createInvoice()[pri:0, instance:qa.scripts.CreateInvoiceTest@43a25848] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestcreateInvoiceis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- qa.scripts.CreateInvoiceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
